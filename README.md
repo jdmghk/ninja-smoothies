@@ -30,18 +30,23 @@ The main components of the project are organized as follows:
 
 
 2. Install Dependencies:
-   ```npm install```
+   ```bash
+   npm install
 
 3.Set up environment variables:
+
 Create a .env file in the root directory and add the following:
-```SALT_SECRET=your_salt_secret`
-   JWT_SECRET=your_jwt_secret```
-```DB_URI=your_mongo_db_uri```
+   ```bash
+   SALT_SECRET=your_salt_secret
+   JWT_SECRET=your_jwt_secret
+   DB_URI=your_mongo_db_uri
 
+```
 4. Run the application:
-   ```npm start```
+   ```bash
+   npm start
 
-5. Visit http://localhost:3000 in your browser to view the app.
+6. Visit http://localhost:3000 in your browser to view the app.
 
 
 
